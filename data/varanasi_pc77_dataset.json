@@ -1,0 +1,453 @@
+{
+  "constituency": {
+    "id": "PC-77",
+    "name": "Varanasi Parliamentary Constituency",
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "mp_name": "Hon. Rajeshwar Verma",
+    "lok_sabha": "18th Lok Sabha • 2024-2029",
+    "financial_year": "2024-25",
+    "last_sync": "Today, 06:00 IST (Live)",
+    "entitlement_crores": 5.0,
+    "sanctioned_lakhs": 443.0,
+    "expenditure_lakhs": 348.6,
+    "utilization_pct": 78.7,
+    "total_projects": 8,
+    "completed_projects": 1,
+    "ongoing_projects": 7,
+    "high_risk_projects": 4,
+    "delayed_projects": 6,
+    "critical_anomalies": 1
+  },
+  "sector_distribution": [
+    {
+      "sector": "Roads & Pathways",
+      "share_pct": 27.2,
+      "amount_lakhs": 120.5,
+      "color": "#1e3a8a"
+    },
+    {
+      "sector": "Drinking Water Infrastructure",
+      "share_pct": 26.9,
+      "amount_lakhs": 119.0,
+      "color": "#0d9488"
+    },
+    {
+      "sector": "Community Facilities",
+      "share_pct": 18.6,
+      "amount_lakhs": 82.2,
+      "color": "#0284c7"
+    },
+    {
+      "sector": "Education & Schools",
+      "share_pct": 8.6,
+      "amount_lakhs": 38.0,
+      "color": "#f59e0b"
+    },
+    {
+      "sector": "Healthcare",
+      "share_pct": 11.7,
+      "amount_lakhs": 52.0,
+      "color": "#e11d48"
+    },
+    {
+      "sector": "Energy & Solar",
+      "share_pct": 7.0,
+      "amount_lakhs": 31.3,
+      "color": "#9333ea"
+    }
+  ],
+  "financial_summary": {
+    "sanctioned_allocation_lakhs": 74.2,
+    "revised_estimate_lakhs": 84.8,
+    "actual_expenditure_lakhs": 68.3
+  },
+  "projects": [
+    {
+      "id": "MPLADS-UP-VAR-1023",
+      "title": "Construction of 2.4 km CC Road with RCC Drain & Solar Lighting",
+      "sector": "Roads & Pathways",
+      "block": "Rohania",
+      "location": "Mishirpur to Mohanpur Link, Rohania",
+      "contractor": "Ganga Valley Engineering Associates",
+      "contractor_id": "CONT-UP-9021",
+      "status": "Ongoing",
+      "sanctioned_amount_lakhs": 78.5,
+      "revised_estimate_lakhs": 78.5,
+      "expenditure_lakhs": 71.44,
+      "expenditure_pct": 91.0,
+      "physical_progress_pct": 38.0,
+      "target_date": "2025-02-15",
+      "delay_days": 142,
+      "coordinates": {
+        "lat": 25.2652,
+        "lng": 82.9341
+      },
+      "eri_score": 92,
+      "risk_level": "High-Risk",
+      "risk_breakdown": {
+        "progress_mismatch": 38,
+        "time_stalling": 28,
+        "contractor_risk": 16,
+        "billing_anomaly": 10
+      },
+      "anomaly": {
+        "type": "Expenditure/Physical Progress Mismatch",
+        "date": "2025-02-18",
+        "severity": "Critical",
+        "status": "New",
+        "description": "Disbursement of 91% funds with only 38% physical work done. 142 days delayed past targeted milestone.",
+        "evidence": {
+          "financial_drawdown": "₹71.44 Lakhs disbursed across 3 running account bills.",
+          "physical_progress": "Only sub-base layer laid; RCC drainage and solar poles not initiated.",
+          "divergence_index": "2.39x expected financial-physical ratio.",
+          "last_inspection": "No physical inspection logged in last 90 days."
+        }
+      }
+    },
+    {
+      "id": "MPLADS-UP-VAR-6088",
+      "title": "Pavement & Drainage Network at Village Border Connect",
+      "sector": "Roads & Pathways",
+      "block": "Rohania",
+      "location": "Kandwa Road Junction, Rohania",
+      "contractor": "Ganga Valley Engineering Associates",
+      "contractor_id": "CONT-UP-9021",
+      "status": "Ongoing",
+      "sanctioned_amount_lakhs": 42.0,
+      "revised_estimate_lakhs": 42.0,
+      "expenditure_lakhs": 25.2,
+      "expenditure_pct": 60.0,
+      "physical_progress_pct": 30.0,
+      "target_date": "2025-04-10",
+      "delay_days": 65,
+      "coordinates": {
+        "lat": 25.271,
+        "lng": 82.942
+      },
+      "eri_score": 87,
+      "risk_level": "High-Risk",
+      "risk_breakdown": {
+        "spatial_overlap": 42,
+        "contractor_risk": 24,
+        "progress_mismatch": 12,
+        "time_stalling": 9
+      },
+      "anomaly": {
+        "type": "Possible Duplicate Project",
+        "date": "2025-02-05",
+        "severity": "High",
+        "status": "New",
+        "description": "High spatial proximity (35m) with State Gram Sadak road project #UP-RD-2023-901 on same alignment.",
+        "evidence": {
+          "spatial_distance": "35 meters Euclidean / identical road alignment.",
+          "overlapping_scheme": "State Gram Sadak Yojana #UP-RD-2023-901 sanctioned 6 months earlier.",
+          "duplicate_confidence": "94.8% GIS corridor match.",
+          "recommended_action": "Freeze payments pending joint GPS survey by PWD & District Planning Cell."
+        }
+      }
+    },
+    {
+      "id": "MPLADS-UP-VAR-2211",
+      "title": "Installation of 8 High-Capacity RO Water Purification Plants with Chillers",
+      "sector": "Drinking Water Infrastructure",
+      "block": "Rohania",
+      "location": "8 Habitation Clusters, Rohania Block",
+      "contractor": "M/s Purvanchal Infratech Pvt Ltd",
+      "contractor_id": "CONT-UP-8840",
+      "status": "Ongoing",
+      "sanctioned_amount_lakhs": 65.0,
+      "revised_estimate_lakhs": 65.0,
+      "expenditure_lakhs": 62.92,
+      "expenditure_pct": 96.8,
+      "physical_progress_pct": 52.0,
+      "target_date": "2025-01-30",
+      "delay_days": 78,
+      "coordinates": {
+        "lat": 25.2589,
+        "lng": 82.915
+      },
+      "eri_score": 84,
+      "risk_level": "High-Risk",
+      "risk_breakdown": {
+        "billing_anomaly": 38,
+        "progress_mismatch": 26,
+        "time_stalling": 14,
+        "contractor_risk": 6
+      },
+      "anomaly": {
+        "type": "Premature Billing",
+        "date": "2025-01-28",
+        "severity": "High",
+        "status": "Under Investigation",
+        "description": "96.8% funds billed, but 4 plants lack power and remain un-commissioned.",
+        "evidence": {
+          "billed_vs_functional": "Final completion certificate submitted, but DISCOM power connection not applied.",
+          "field_status": "4 units installed without electrical feed or water flow tests.",
+          "vendor_warranty": "Warranty clock activated prematurely before public commissioning."
+        }
+      }
+    },
+    {
+      "id": "MPLADS-UP-VAR-3045",
+      "title": "Community Hall & Multi-Skill Youth Training Facility at Sevapuri",
+      "sector": "Community Facilities",
+      "block": "Sevapuri",
+      "location": "Sevapuri Model Block Complex",
+      "contractor": "Kashi Construction & Civil Works",
+      "contractor_id": "CONT-UP-7102",
+      "status": "Ongoing",
+      "sanctioned_amount_lakhs": 68.0,
+      "revised_estimate_lakhs": 82.2,
+      "expenditure_lakhs": 48.0,
+      "expenditure_pct": 70.6,
+      "physical_progress_pct": 45.0,
+      "target_date": "2025-03-15",
+      "delay_days": 95,
+      "coordinates": {
+        "lat": 25.321,
+        "lng": 82.805
+      },
+      "eri_score": 79,
+      "risk_level": "High-Risk",
+      "risk_breakdown": {
+        "cost_escalation": 36,
+        "time_stalling": 22,
+        "progress_mismatch": 14,
+        "contractor_risk": 7
+      },
+      "anomaly": {
+        "type": "Cost Revision Claim",
+        "date": "2025-01-20",
+        "severity": "High",
+        "status": "New",
+        "description": "20.9% budget increase claimed for foundation excavation without geological soil proof.",
+        "evidence": {
+          "cost_inflation": "+₹14.20 Lakhs (20.9% jump over sanctioned estimate).",
+          "unsupported_claim": "Soil strata claimed as hard rock without accredited geotechnical soil test.",
+          "norm_violation": "Exceeds 10% permissible revised estimate threshold without State Technical Committee approval."
+        }
+      }
+    },
+    {
+      "id": "MPLADS-UP-VAR-4112",
+      "title": "Construction of Solar Mini-Grid & LED Illumination for Ramnagar Ghats",
+      "sector": "Energy & Solar",
+      "block": "Kashi Vidyapeeth",
+      "location": "Ramnagar Ghat Pathway",
+      "contractor": "Kashi Jal Shuddhikarun Solutions",
+      "contractor_id": "CONT-UP-6619",
+      "status": "Ongoing",
+      "sanctioned_amount_lakhs": 45.5,
+      "revised_estimate_lakhs": 45.5,
+      "expenditure_lakhs": 22.75,
+      "expenditure_pct": 50.0,
+      "physical_progress_pct": 50.0,
+      "target_date": "2025-05-30",
+      "delay_days": 14,
+      "coordinates": {
+        "lat": 25.279,
+        "lng": 83.031
+      },
+      "eri_score": 48,
+      "risk_level": "Medium",
+      "risk_breakdown": {
+        "time_stalling": 25,
+        "progress_mismatch": 8,
+        "contractor_risk": 10,
+        "cost_escalation": 5
+      },
+      "anomaly": {
+        "type": "Minor Milestone Drift",
+        "date": "2025-02-22",
+        "severity": "Medium",
+        "status": "Resolved",
+        "description": "14 days behind procurement schedule for solar battery bank. Vendor delivery now verified.",
+        "evidence": {
+          "milestone_impact": "Procurement of LiFePO4 battery bank delayed by supplier logistics.",
+          "curative_status": "Consignment received at Varanasi depot; installation underway."
+        }
+      }
+    },
+    {
+      "id": "MPLADS-UP-VAR-5540",
+      "title": "Smart Science & Computer Laboratory in Composite School",
+      "sector": "Education & Schools",
+      "block": "Pindra",
+      "location": "Composite School, Pindra Centre",
+      "contractor": "Apex EduTech Infrastructure",
+      "contractor_id": "CONT-UP-5512",
+      "status": "Ongoing",
+      "sanctioned_amount_lakhs": 38.0,
+      "revised_estimate_lakhs": 38.0,
+      "expenditure_lakhs": 34.2,
+      "expenditure_pct": 90.0,
+      "physical_progress_pct": 88.0,
+      "target_date": "2025-01-15",
+      "delay_days": 45,
+      "coordinates": {
+        "lat": 25.541,
+        "lng": 82.852
+      },
+      "eri_score": 52,
+      "risk_level": "Medium",
+      "risk_breakdown": {
+        "time_stalling": 28,
+        "billing_anomaly": 12,
+        "progress_mismatch": 7,
+        "contractor_risk": 5
+      },
+      "anomaly": {
+        "type": "Vendor Delivery Lag",
+        "date": "2025-01-18",
+        "severity": "Medium",
+        "status": "Inspection Scheduled",
+        "description": "Hardware delivered but pending final lab inspection certification by Basic Shiksha Adhikari (BSA).",
+        "evidence": {
+          "certification": "BSA inspection pending since 45 days. 30 desktop terminals installed.",
+          "fund_hold": "10% retention fund held back until BSA sign-off."
+        }
+      }
+    },
+    {
+      "id": "MPLADS-UP-VAR-7019",
+      "title": "Primary Health Sub-Centre Diagnostic Wing & Cold Chain Facility",
+      "sector": "Healthcare",
+      "block": "Harahua",
+      "location": "PHC Sub-centre Harahua",
+      "contractor": "Purvanchal Healthcare Works",
+      "contractor_id": "CONT-UP-4901",
+      "status": "Ongoing",
+      "sanctioned_amount_lakhs": 52.0,
+      "revised_estimate_lakhs": 52.0,
+      "expenditure_lakhs": 48.0,
+      "expenditure_pct": 92.3,
+      "physical_progress_pct": 92.0,
+      "target_date": "2025-02-28",
+      "delay_days": 35,
+      "coordinates": {
+        "lat": 25.385,
+        "lng": 82.951
+      },
+      "eri_score": 38,
+      "risk_level": "Low",
+      "risk_breakdown": {
+        "time_stalling": 20,
+        "progress_mismatch": 5,
+        "contractor_risk": 7,
+        "cost_escalation": 6
+      },
+      "anomaly": {
+        "type": "Licensing Delay",
+        "date": "2025-02-10",
+        "severity": "Low",
+        "status": "Under Investigation",
+        "description": "Civil structure complete; pending state medical council equipment clearance.",
+        "evidence": {
+          "progress_alignment": "Expenditure and physical structure aligned at 92%.",
+          "delay_nature": "Regulatory compliance inspection for biomedical cold chain refrigerator."
+        }
+      }
+    },
+    {
+      "id": "MPLADS-UP-VAR-8801",
+      "title": "Deep Borewell Drinking Water Supply Scheme with Overhead Tank",
+      "sector": "Drinking Water Infrastructure",
+      "block": "Rohania",
+      "location": "Kashipur Habitation, Rohania",
+      "contractor": "Purvanchal Jal Kalyan Works",
+      "contractor_id": "CONT-UP-3329",
+      "status": "Completed",
+      "sanctioned_amount_lakhs": 54.0,
+      "revised_estimate_lakhs": 54.0,
+      "expenditure_lakhs": 54.0,
+      "expenditure_pct": 100.0,
+      "physical_progress_pct": 100.0,
+      "target_date": "2024-11-30",
+      "delay_days": 0,
+      "coordinates": {
+        "lat": 25.249,
+        "lng": 82.921
+      },
+      "eri_score": 12,
+      "risk_level": "Clean",
+      "risk_breakdown": {
+        "progress_mismatch": 2,
+        "time_stalling": 3,
+        "contractor_risk": 4,
+        "billing_anomaly": 3
+      },
+      "anomaly": {
+        "type": "None",
+        "date": "2024-12-05",
+        "severity": "Clean",
+        "status": "Clean",
+        "description": "Project successfully verified by District Inspection Cell, handed over and geo-tagged.",
+        "evidence": {
+          "audit_status": "Clean audit certificate #VAR-AUD-2024-098 issued.",
+          "geo_tagging": "Bhashini geo-tag and water quality test parameters uploaded on eSAKSHI."
+        }
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "id": "CONT-UP-9021",
+      "name": "Ganga Valley Engineering Associates",
+      "pan": "AAACG1234F",
+      "projects_awarded": 4,
+      "total_value_lakhs": 164.5,
+      "concentration_hhi_risk": "High (Monopolizing Rohania civil road packages)",
+      "average_delay_days": 103,
+      "anomalies_flagged": 3,
+      "blacklisted_status": "Show Cause Notice Pending"
+    },
+    {
+      "id": "CONT-UP-8840",
+      "name": "M/s Purvanchal Infratech Pvt Ltd",
+      "pan": "AABCP5678K",
+      "projects_awarded": 3,
+      "total_value_lakhs": 115.0,
+      "concentration_hhi_risk": "Medium (High billing velocity prior to commissioning)",
+      "average_delay_days": 78,
+      "anomalies_flagged": 2,
+      "blacklisted_status": "Active / Monitored"
+    },
+    {
+      "id": "CONT-UP-7102",
+      "name": "Kashi Construction & Civil Works",
+      "pan": "AAGCK9912L",
+      "projects_awarded": 2,
+      "total_value_lakhs": 98.2,
+      "concentration_hhi_risk": "Medium (Cost escalation habit without technical proof)",
+      "average_delay_days": 95,
+      "anomalies_flagged": 1,
+      "blacklisted_status": "Active"
+    },
+    {
+      "id": "CONT-UP-3329",
+      "name": "Purvanchal Jal Kalyan Works",
+      "pan": "AAECP1122M",
+      "projects_awarded": 2,
+      "total_value_lakhs": 84.0,
+      "concentration_hhi_risk": "Low (Consistent milestone completion)",
+      "average_delay_days": 5,
+      "anomalies_flagged": 0,
+      "blacklisted_status": "Verified Clean"
+    }
+  ],
+  "external_schemes": [
+    {
+      "id": "UP-RD-2023-901",
+      "scheme_name": "State Gram Sadak Yojana",
+      "work_name": "Construction of Bituminous Road Kandwa Border Corridor",
+      "sanction_date": "2023-08-14",
+      "sanctioned_amount_lakhs": 39.4,
+      "status": "Under Civil Work",
+      "coordinates": {
+        "lat": 25.2713,
+        "lng": 82.9423
+      }
+    }
+  ]
+}
