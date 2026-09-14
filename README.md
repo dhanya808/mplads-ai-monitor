@@ -4,6 +4,20 @@ An intelligence and early-warning monitoring layer designed for the **Ministry o
 
 ---
 
+## 🌐 Live Public Deployment (Instant Access)
+
+Anyone can access and evaluate the live platform directly without running local servers:
+
+- **🏛️ Stakeholder Parichay Sign In**: [https://mplads-ai-monitor-liart.vercel.app/login](https://mplads-ai-monitor-liart.vercel.app/login)
+- **📊 Executive Command Dashboard**: [https://mplads-ai-monitor-liart.vercel.app/dashboard](https://mplads-ai-monitor-liart.vercel.app/dashboard)
+- **⚡ Interactive REST API Swagger**: [https://mplads-ai-monitor-liart.vercel.app/docs](https://mplads-ai-monitor-liart.vercel.app/docs)
+- **📄 Sample Statutory Audit Notice**: [https://mplads-ai-monitor-liart.vercel.app/api/reports/dossier/MPLADS-UP-VAR-1023/print](https://mplads-ai-monitor-liart.vercel.app/api/reports/dossier/MPLADS-UP-VAR-1023/print)
+- **📑 Master Presentation Guide PDF**: [Download PDF Guide](https://mplads-ai-monitor-liart.vercel.app/MPLADS_AI_Monitor_SIH_Master_Guide.pdf)
+
+> **Demo Tip**: On the login page, click any of the 4 one-click demo role cards (**Member of Parliament**, **District Magistrate**, **State Nodal Authority**, or **MoSPI Ministry**) to instantly impersonate that stakeholder view!
+
+---
+
 ## Key Features
 
 1. **Explainable Risk Index (ERI: 0–100)**:
@@ -40,12 +54,13 @@ An intelligence and early-warning monitoring layer designed for the **Ministry o
 
 ## Quick Start Guide
 
-### 1. Launch the Server
-`ash
+### 1. Launch the Server Locally (Optional)
+```bash
 python run.py
-`
+```
 
 ### 2. Access the Platform
-- **Dashboard**: Open your browser at [http://127.0.0.1:8000](http://127.0.0.1:8000)
-- **Interactive OpenAPI Documentation**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-- **Statutory Audit Dossier**: [http://127.0.0.1:8000/api/reports/dossier/MPLADS-UP-VAR-1023/print](http://127.0.0.1:8000/api/reports/dossier/MPLADS-UP-VAR-1023/print)
+- **Public Live Access**: [https://mplads-ai-monitor-liart.vercel.app/login](https://mplads-ai-monitor-liart.vercel.app/login)
+- **Local Dashboard**: [http://127.0.0.1:8000/dashboard](http://127.0.0.1:8000/dashboard)
+- **Interactive OpenAPI Documentation**: [https://mplads-ai-monitor-liart.vercel.app/docs](https://mplads-ai-monitor-liart.vercel.app/docs)
+- **Statutory Audit Dossier**: [https://mplads-ai-monitor-liart.vercel.app/api/reports/dossier/MPLADS-UP-VAR-1023/print](https://mplads-ai-monitor-liart.vercel.app/api/reports/dossier/MPLADS-UP-VAR-1023/print)
